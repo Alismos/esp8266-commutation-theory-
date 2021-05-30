@@ -4,9 +4,9 @@ $temperatura = $_GET['temp'];
 $humedad = $_GET['hum'];
 
 $usuario = "root";
-$contrasena = "";
+$contrasena = "root";
 $servidor = "localhost";
-$basededatos = "tutorial";
+$basededatos = "teoriacomp";
 
 $conexion = mysqli_connect( $servidor, $usuario, $contrasena ) or die ("No se ha podido conectar al servidor de Base de datos");
 
